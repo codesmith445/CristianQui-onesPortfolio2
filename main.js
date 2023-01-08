@@ -26,3 +26,11 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+// Maps 
+   mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11'
+  });
+
