@@ -402,10 +402,12 @@ header nav ul li a:hover:before {
 
     .left-content .download {
       font-size: 10px;
+      Padding: 0px;
     }
 
     .left-content .qoute {
       font-size: 10px;
+       Padding: 0px:
     }
      
      input { 
